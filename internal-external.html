@@ -1,0 +1,42 @@
+<html>
+
+
+    <head>
+        <title>Internal &amp External JS</title>
+        
+        <link href="normalize.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="container">
+        
+        
+            <p id="output"></p>
+        
+        </div><!--End Container-->
+        
+        
+        <!-- JS always loads last-->
+        
+        <!--Internal JavaScript-->
+        <script type="text/javascript">
+            document.getElementById("output").innerHTML="This is created with internal JS";
+        
+        </script>
+        
+        
+        <!--External JS-->
+        
+        <script type="text/javascript" src="script.js"></script>
+        
+    </body>
+
+
+
+
+
+
+
+
+
+</html>
